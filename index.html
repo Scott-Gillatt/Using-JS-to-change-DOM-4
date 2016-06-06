@@ -1,0 +1,53 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>JS Challenge</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style>
+		body {
+			margin: 20px;
+		}
+		/*.hover {*/
+		/*  background-color: #116DAE;*/
+		/*  color: white;*/
+		/*}*/
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-4">
+				<div class="text-center">
+					<h4>Task Form</h4>
+				</div>
+				<form>
+					<div class="form-group">
+						<label for="taskName" class="control-label">Name</label>
+						<input type="text" class="form-control" id="taskName" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<label for="taskDescription" class="control-label">Description</label>
+						<input type="text" class="form-control" id="taskDescription" placeholder="Description">
+					</div>
+					<div class="form-group">
+						<div class="text-center">
+							<button type="button" class="btn btn-success" id="addBtn">Add Task</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-xs-6 col-md-8">
+				<div class="text-center">
+					<h4>Task List</h4>
+				</div>
+				<ul id="taskList" class="list-group">
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>
